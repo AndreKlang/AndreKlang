@@ -1,0 +1,40 @@
+---
+layout: page
+background: https://lh3.googleusercontent.com/NCHf-7lIRS74keThk0Iyv6pKnbhTz8Y_6_zWAZ2dYV65yM9o6BXVBIbF3LhdIRS_yawEifm_TZ9DZMJv-UceY8IsRn5SOJaiwp5eQwRE9QM4hLcUDSN8hKkO4Rrq7XvNunotKqh0Rw
+---
+{% if page.type == "year" %}
+<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
+{% elsif page.type == "month" %}
+<h1>Archive of posts from {{ page.date | date: "%B %Y" }}</h1>
+{% elsif page.type == "day" %}
+<h1>Archive of posts from {{ page.date | date: "%B %-d, %Y" }}</h1>
+{% else %}
+<h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
+{% endif %}
+
+{% for post in page.posts %}
+<article class="post-preview">
+  {% if post.image %}
+  <img src="{{ post.image | append:site.images.thumbnail.suffix }}" style="float: left; margin-right: 20px;" />
+  {% endif %}
+  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <h2 class="post-title">{{ post.title }}</h2>
+    {% if post.subtitle %}
+    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+    {% else %}
+    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+    {% endif %}
+  </a>
+  <p class="post-meta">Posted by
+    {% if post.author %}
+    {{ post.author }}
+    {% else %}
+    {{ site.author }}
+    {% endif %}
+    on
+    {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+  </p>
+  <div class="clearfix"></div>
+</article>
+{% endfor %}
+
