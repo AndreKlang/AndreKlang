@@ -22,8 +22,8 @@ title: Ramblings of Andre Klang
 email: contact@andreklang.se
 description: >- # this means to ignore newlines until "baseurl:"
   Just random rambligs
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://andreklang.se" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/AndreKlang" # the subpath of your site, e.g. /blog
+url: "https://andreklang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 author: Andre Klang
 twitter_username: klangandre
 github_username:  AndreKlang
