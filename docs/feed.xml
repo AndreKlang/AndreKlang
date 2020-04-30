@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://andreklang.github.io//AndreKlang/feed.xml" rel="self" type="application/atom+xml" /><link href="https://andreklang.github.io//AndreKlang/" rel="alternate" type="text/html" /><updated>2020-04-30T11:37:44+02:00</updated><id>https://andreklang.github.io//AndreKlang/feed.xml</id><title type="html">Ramblings of Andre Klang</title><subtitle>Just random rambligs</subtitle><author><name>Andre Klang</name></author><entry><title type="html">Damascus knive</title><link href="https://andreklang.github.io//AndreKlang/blacksmithing/2020/04/29/damascus-knifes.html" rel="alternate" type="text/html" title="Damascus knive" /><published>2020-04-29T17:56:38+02:00</published><updated>2020-04-29T17:56:38+02:00</updated><id>https://andreklang.github.io//AndreKlang/blacksmithing/2020/04/29/damascus-knifes</id><content type="html" xml:base="https://andreklang.github.io//AndreKlang/blacksmithing/2020/04/29/damascus-knifes.html">&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://andreklang.github.io//AndreKlang/feed.xml" rel="self" type="application/atom+xml" /><link href="https://andreklang.github.io//AndreKlang/" rel="alternate" type="text/html" /><updated>2020-04-30T12:16:59+02:00</updated><id>https://andreklang.github.io//AndreKlang/feed.xml</id><title type="html">Ramblings of Andre Klang</title><subtitle>Just random rambligs</subtitle><author><name>Andre Klang</name></author><entry><title type="html">Damascus knive</title><link href="https://andreklang.github.io//AndreKlang/blacksmithing/2020/04/29/damascus-knifes.html" rel="alternate" type="text/html" title="Damascus knive" /><published>2020-04-29T17:56:38+02:00</published><updated>2020-04-29T17:56:38+02:00</updated><id>https://andreklang.github.io//AndreKlang/blacksmithing/2020/04/29/damascus-knifes</id><content type="html" xml:base="https://andreklang.github.io//AndreKlang/blacksmithing/2020/04/29/damascus-knifes.html">&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span class=&quot;k&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;asd&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;Hej&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;
@@ -18,4 +18,73 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Andre Klang</name></author><category term="jekyll" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Andre Klang</name></author><category term="jekyll" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Dealing with floats in PHP</title><link href="https://andreklang.github.io//AndreKlang/dealing-with-floats-in-php/" rel="alternate" type="text/html" title="Dealing with floats in PHP" /><published>2016-02-25T10:29:02+01:00</published><updated>2016-02-25T10:29:02+01:00</updated><id>https://andreklang.github.io//AndreKlang/dealing-with-floats</id><content type="html" xml:base="https://andreklang.github.io//AndreKlang/dealing-with-floats-in-php/">&lt;p&gt;As we all know, php does not have a good data type for decimals, so we’re stuck with floats. And let’s face it, they are not always so easy to deal with and to get the expected results.&lt;/p&gt;
+
+&lt;p&gt;I recently needed to take a sum of money in a payment module, and convert it from dollars to cents, and send it as an integer to a webservice. Easy enough, but something came up..&lt;/p&gt;
+
+&lt;h2 id=&quot;so-why-are-floats-difficult&quot;&gt;So why are floats difficult?&lt;/h2&gt;
+&lt;p&gt;Well, it has to do with how they are stored in memory, I won’t get into it too deep (because I frankly don’t really know). But the short description, all values can’t be stored in an accurate representation. So it is stored “good enough”, or “as good as possible”.&lt;/p&gt;
+
+&lt;p&gt;And what does that mean? For example the value from the tests below: “143.2” can’t be stored. So it is stored like this “143.19999999999998863”, and then whenever it is used it is rounded back to 143.2.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;It’s rounded back? Then whats the issue?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Glad you asked! The issue? Start doing calculations with it, you’ll start to see some funny problems.&lt;/p&gt;
+
+&lt;p&gt;Study the example below, it’s fairly simple. We start with the value 143.2 and multiply that with 100. Result is quite simple 14320. This is not the interesting part, as I said, I needed to send it as an integer. So I did a simple typecast and I was done! To production the payment module went!&lt;/p&gt;
+
+&lt;p&gt;Don’t you hate it when someone reports “wierd” bugs on your stuff..&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The order total is one cent wrong! What the f?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lets try that out..&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;  
+&lt;span class=&quot;nb&quot;&gt;var_dump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;143.2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// int(14319)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;14319!?! WHAT!?!&lt;/p&gt;
+
+&lt;p&gt;Well,, simple answer.. As I said, do some calculations with a float:&lt;/p&gt;
+&lt;pre&gt;143.19999999999998863 * 100 = 14319.999999999998863&lt;/pre&gt;
+
+&lt;h2 id=&quot;now-to-another-aspect-what-happens-when-we-cast-to-int&quot;&gt;Now to another aspect. What happens when we cast to int?&lt;/h2&gt;
+&lt;p&gt;Well, anything that is not valid integer, is cut of.&lt;/p&gt;
+
+&lt;p&gt;So take our example from above, remove anything that is no integer, and what do you get? 14319! Not the expected 14320..&lt;/p&gt;
+
+&lt;h2 id=&quot;so-how-do-we-cast-that-to-an-int&quot;&gt;So how do we cast that to an int?&lt;/h2&gt;
+&lt;p&gt;Well, I think I tried all possible solutions.. Rounding, intval, bc_math, and anything else I could think of. Until I started to think about why var_dump says the correct value when it is a float.&lt;/p&gt;
+
+&lt;p&gt;Floats have some kind of “toString”-method, that fixes the rounding. But NOT a “toInteger”-method..&lt;/p&gt;
+
+&lt;p&gt;So what if… We cast to string first, making use of “toString”, then cast that to integer. SUCCESS!&lt;/p&gt;
+
+&lt;p&gt;See line 18 below.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AndreKlang/f20c55abbc22e2bc7c2c.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;result:&lt;/p&gt;
+
+&lt;pre&gt;
+Raw: --------------
+float(143.2)
+float(14320)
+
+Cast: --------------
+int(143)
+int(14319)
+
+Test: --------------
+float(14320)
+int(14319)
+int(14319)
+int(14320) &amp;lt;-- LINE 18: SUCCESS
+
+Real values: -------
+float(143.19999999999998863)
+float(14319.999999999998181)
+
+&lt;/pre&gt;</content><author><name>Andre Klang</name></author><category term="php" /><summary type="html">As we all know, php does not have a good data type for decimals, so we’re stuck with floats. And let’s face it, they are not always so easy to deal with and to get the expected results.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://lh3.googleusercontent.com/YVkzcnY82n_MvxFGG9BMynWQ7EnoKsSEiTpfTyDdcrJyiDkY6NRvKaHlGtJB-1VgBB9g6PiXYyB45lzPrETEA90yCWyfHZOKGaQ0XiTG6dPS9oET5vq8ojDxbUYESYdtIAc5fLq42A" /><media:content medium="image" url="https://lh3.googleusercontent.com/YVkzcnY82n_MvxFGG9BMynWQ7EnoKsSEiTpfTyDdcrJyiDkY6NRvKaHlGtJB-1VgBB9g6PiXYyB45lzPrETEA90yCWyfHZOKGaQ0XiTG6dPS9oET5vq8ojDxbUYESYdtIAc5fLq42A" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
