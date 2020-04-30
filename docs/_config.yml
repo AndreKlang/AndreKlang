@@ -34,7 +34,8 @@ image:
 # Build settings
 
 # https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll
-theme: jekyll-theme-clean-blog
+#theme: jekyll-theme-clean-blog
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
   - jekyll-archives
