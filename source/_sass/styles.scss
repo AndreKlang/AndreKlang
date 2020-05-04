@@ -1,0 +1,12 @@
+// Import Core Clean Blog SCSS
+@import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
+
+// code highlighting
+@import "./github.scss";
+//@import "./native.scss";
+
+.highlight pre {
+  padding: 1em;
+  background-color: #e4e4e4;
+  font-size: 80%;
+}

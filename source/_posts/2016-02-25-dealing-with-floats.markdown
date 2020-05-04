@@ -27,7 +27,7 @@ Don't you hate it when someone reports "wierd" bugs on your stuff..
 
 Lets try that out..
 
-{% highlight php %}  
+{% highlight php %}
 var_dump((int) 143.2 * 100);
 // int(14319)
 {% endhighlight W%}  
@@ -55,7 +55,7 @@ See line 18 below.
 
 result:
 
-<pre>
+{% highlight plain %}
 Raw: --------------
 float(143.2)
 float(14320)
@@ -74,4 +74,4 @@ Real values: -------
 float(143.19999999999998863)
 float(14319.999999999998181)
 
-</pre>
+{% endhighlight %}
