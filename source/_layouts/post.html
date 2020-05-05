@@ -4,10 +4,12 @@ layout: default
 
 <!-- Page Header -->
 {% if page.image %}
-<header class="masthead" style="background-image: url('{{ page.image | append:site.images.masthead.suffix }}')">
-  {% else %}
-  <header class="masthead">
-    {% endif %}
+    <header class="masthead" style="background-image: url('{{ page.image | append:site.images.masthead.suffix }}')">
+{% elsif page.background %}
+    <header class="masthead" style="background-image: url('{{ page.background | append:site.images.masthead.suffix }}')">
+{% else %}
+    <header class="masthead">
+{% endif %}
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
